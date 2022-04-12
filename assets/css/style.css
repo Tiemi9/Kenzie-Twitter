@@ -27,12 +27,10 @@ body {
     border-radius: 50px;
     width: 26px;
     height: 26px;
-    padding-top: 2px;
 }
 
 .header__items img{
     max-width: 26px;
-    padding-top: 5px;
 }
 
 .header__items a{
@@ -41,6 +39,7 @@ body {
     font-size: 20px;
     padding-left: 10px;
     line-height: 50px;
+    vertical-align: super;
 }
 
 .header .paginaInicial {
