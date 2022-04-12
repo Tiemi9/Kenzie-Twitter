@@ -42,7 +42,7 @@ body {
     vertical-align: super;
 }
 
-.header .paginaInicial {
+.header__items a:hover{
     color: #1da1f2;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .main__form button{
-    background-color: #1da1f2;
+    background-color: #1da0f288;
     border-radius: 50px;
     width: 100px;
     height: 40px;
@@ -87,6 +87,9 @@ body {
     font-weight: bold;
     font-size: 15px;  
     cursor: pointer;
+}
+.main__form button:hover{
+    background-color: #1da1f2;
 }
 
 .feed__tweetList {

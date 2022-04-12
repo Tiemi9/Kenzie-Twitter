@@ -58,4 +58,5 @@ function tweetTamplate(tweet){
     li.appendChild(img)
     li.appendChild(div)
     feed.appendChild(li)
+    textArea.value = "";
 }
