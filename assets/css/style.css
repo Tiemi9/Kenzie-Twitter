@@ -86,10 +86,15 @@ body {
     color: white;
     font-weight: bold;
     font-size: 15px;  
+    cursor: pointer;
 }
 
+.feed__tweetList {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
 .feed__tweet{
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: 1px solid #e7ecf0;
     display: flex;
     align-items: flex-start;
