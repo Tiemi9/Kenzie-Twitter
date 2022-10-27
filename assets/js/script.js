@@ -19,7 +19,7 @@ function creatingTweet(tweetText){
 
     const tweet = {
         nome: "Cris",
-        foto: "./assets/img/perfilPic2.png",
+        foto: "../assets/img/perfilPic2.png",
         usuario: "@estudantedakenzie",
         texto: tweetText,
         tempo: `${hour}:${minute}`
